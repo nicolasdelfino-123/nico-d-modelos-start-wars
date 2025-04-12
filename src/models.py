@@ -1,9 +1,7 @@
-import os
 from datetime import datetime, timezone
 from eralchemy2 import render_er
-from sqlalchemy.orm import relationship, declarative_base
+from sqlalchemy.orm import relationship
 from sqlalchemy import Column, ForeignKey, String, DateTime
-import sys
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import String
 from sqlalchemy.orm import Mapped, mapped_column
